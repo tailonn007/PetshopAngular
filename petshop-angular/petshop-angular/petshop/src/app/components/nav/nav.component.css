@@ -1,0 +1,8 @@
+    header { background: var(--branco); border-bottom: 3px solid var(--sol); position: sticky; top: 0; z-index: 10; }
+    .barra { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; padding: .8rem 0; }
+    .logo { font-family: var(--fonte-titulo); font-weight: 700; font-size: 1.4rem; color: var(--verde); text-decoration: none; }
+    nav { display: flex; flex-wrap: wrap; gap: .3rem; }
+    nav a { text-decoration: none; font-weight: 700; padding: .4rem .9rem; border-radius: 999px; }
+    nav a:hover { background: var(--verde-claro); }
+    nav a.ativo { background: var(--verde); color: var(--branco); }
+  

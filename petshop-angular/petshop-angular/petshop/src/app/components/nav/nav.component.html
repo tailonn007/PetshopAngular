@@ -1,0 +1,11 @@
+    <header>
+      <div class="container barra">
+        <a routerLink="/" class="logo">🐾 Patinhas Felizes</a>
+        <nav aria-label="Principal">
+          @for (item of itens; track item.rota) {
+            <a [routerLink]="item.rota" routerLinkActive="ativo" [routerLinkActiveOptions]="{ exact: item.rota === '/' }">{{ item.nome }}</a>
+          }
+        </nav>
+      </div>
+    </header>
+  

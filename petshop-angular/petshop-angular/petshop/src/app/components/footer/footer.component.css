@@ -1,0 +1,4 @@
+    footer { background: var(--verde); color: var(--branco); padding: 2rem 0; margin-top: 3rem; }
+    footer p + p { margin-top: .4rem; }
+    a { color: var(--sol); font-weight: 700; }
+  
